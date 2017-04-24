@@ -3,11 +3,28 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
-<Button  
-    android:id="@+id/MyButton"
-    android:layout_width="match_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/Hello"
-    />
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageButton
+        android:src="@drawable/location"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:id="@+id/LocationImageButton"
+        android:layout_marginLeft="75.5dp"
+        android:layout_marginRight="0.0dp"
+        android:layout_marginTop="45.0dp"
+        android:layout_marginBottom="0.0dp" />
+    <TextView
+        android:text="Current Address"
+        android:layout_width="217.0dp"
+        android:layout_height="63.0dp"
+        android:id="@+id/AdressTextBox"
+        android:layout_marginTop="13.0dp"
+        android:layout_marginBottom="25.5dp"
+        android:layout_marginLeft="36.0dp" />
+    <TextView
+        android:text="location text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/location_text" />
 </LinearLayout>
